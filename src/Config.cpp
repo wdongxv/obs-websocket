@@ -40,10 +40,10 @@ with this program. If not, see <https://www.gnu.org/licenses/>
 Config::Config()
 	: PortOverridden(false),
 	  PasswordOverridden(false),
-	  FirstLoad(true),
-	  ServerEnabled(false),
+	  FirstLoad(false),
+	  ServerEnabled(true),
 	  ServerPort(4455),
-	  Ipv4Only(false),
+	  Ipv4Only(true),
 	  DebugEnabled(false),
 	  AlertsEnabled(false),
 	  AuthRequired(true),
